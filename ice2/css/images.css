@@ -1,0 +1,54 @@
+div {
+  animation-name: animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+.hover {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  border: black 1px solid;
+}
+
+.active {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  border: black 1px solid;
+
+}
+
+.focus {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  border: black 1px solid;
+
+}
+
+.bar {
+  margin: 36px;
+  float: left;
+  background: lightgrey;
+  height: 100px;
+  width: 1000px;
+}
+
+.square {
+  display: inline-block;
+  margin: 36px;
+  float: left;
+  background: blue;
+  height: 40px;
+  width: 40px;
+  animation: animation 1.5s infinite;
+}
