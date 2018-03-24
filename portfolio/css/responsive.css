@@ -1,5 +1,38 @@
 @media screen and (min-width: 650px){
 
+/*Home*/
+
+  .home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .welcome, .home-picture {
+    grid-column: 1/3;
+  }
+
+/*About*/
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-picture, .about-text {
+    grid-column: 1/3;
+  }
+
+/*Work*/
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #projects, #skills {
+    grid-column: 1/3;
+  }
+
 /*Gallery*/
 
   .photo-grid {
@@ -34,6 +67,52 @@
 }
 
 @media screen and (min-width: 1000px){
+
+/*Home*/
+
+  .home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .welcome {
+    grid-column: 1 / 3;
+  }
+
+  .home-picture {
+    grid-column: 3 / 5;
+  }  
+
+/*About*/
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .about-picture {
+    grid-column: 1 / 3;
+    grid-row-start: 1;
+  }
+
+  .about-text {
+    grid-column: 3 / 5;
+  }
+
+/*Work*/
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  #projects {
+    grid-column: 1 / 3;
+  }
+
+  #skills {
+    grid-column: 3 / 5;
+  }
 
 /*Gallery*/
 

@@ -52,13 +52,33 @@ nav li {
 
 .welcome p {
 	color: white;
+	text-align: center;
+}
+
+.main-content-home {
+	margin: 20px;
+}
+
+.home-cell {
+	margin-bottom: 2%;
+	margin-left: 2%;
+	display: block;
+	width: 98%;
+}
+
+.home-cell img {
+	width: 98%;
+	display: block;
 }
 
 /*About*/
 
+.main-content-about {
+	margin: 20px;
+}
+
 .about-picture img {
 	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
-	margin-left: 10px;
 }
 
 .main-content-about h1, h3, p {
@@ -73,7 +93,23 @@ nav li {
 	font-family: TofinoProPersonal-Regular;
 }
 
+.about-cell {
+	margin-bottom: 2%;
+	margin-left: 2%;
+	display: block;
+	width: 98%;
+}
+
+.about-cell img {
+	display: block;
+	width: 98%;
+}
+
 /*Work*/
+
+.main-content-work {
+	margin: 20px;
+}
 
 .main-content-work h1 {
 	font-family: TofinoProPersonal-Regular;
@@ -88,10 +124,12 @@ nav li {
 #projects h2 {
 	font-family: TofinoProPersonal-Bold;
 	color: #FFFFFF;
+	margin: 10px;
 }
 
 #projects p {
 	color: #FFFFFF;
+	margin: 10px;
 }
 
 #skills {
@@ -102,10 +140,19 @@ nav li {
 #skills h2 {
 	font-family: TofinoProPersonal-Bold;
 	color: #FFFFFF;
+	margin: 10px;
 }
 
 #skills p {
 	color: #FFFFFF;
+	margin: 10px;
+}
+
+.work-cell {
+	margin-bottom: 2%;
+	margin-left: 2%;
+	display: block;
+	width: 98%;
 }
 
 /*Gallery*/
