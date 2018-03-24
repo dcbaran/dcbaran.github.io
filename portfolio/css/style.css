@@ -12,6 +12,13 @@ header, footer, .logo {
 
 header, footer {
 	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+	width: 100%;
+
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
 }
 
 @font-face { font-family: Tofino Pro Personal; src: url('TofinoProPersonal-Regular.otf'); } 
@@ -43,6 +50,27 @@ nav li {
 	color: #FFFFFF; /*this isn't doing anything*/
 }
 
+/*skipping*/
+.skip{
+	position: absolute;
+	left: -999px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	z-index: -999;
+	color: #E3AD02;
+}
+a.skip:active, a.skip:focus, a.skip:hover {
+    position:fixed;
+    top: auto;
+    left: auto; 
+	width: auto; 
+	height: auto; 
+	overflow: visible;
+	z-index: 999;
+}
+
 /*Home Page*/
 
 .welcome {
@@ -53,6 +81,11 @@ nav li {
 .welcome p {
 	color: white;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	margin: auto;
+	padding: 1.5em;
 }
 
 .main-content-home {
@@ -97,7 +130,6 @@ nav li {
 	margin-bottom: 2%;
 	margin-left: 2%;
 	display: block;
-	width: 98%;
 }
 
 .about-cell img {
