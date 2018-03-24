@@ -1,3 +1,5 @@
+/*General & Universal Stuff*/
+
 html, body, header, footer {
 	margin: 0;
 	padding: 0;
@@ -8,25 +10,113 @@ header, footer, .logo {
 	color: #FFFFFF;
 }
 
+header, footer {
+	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+}
+
+@font-face { font-family: Tofino Pro Personal; src: url('TofinoProPersonal-Regular.otf'); } 
+@font-face { font-family: Tofino Pro Personal; font-weight: medium; src: url('TofinoProPersonal-Semibold.otf');}
+@font-face { font-family: Tofino Pro Personal; font-weight: bold; src: url('TofinoProPersonal-Bold.otf');}
+
+p {
+	font-family: TofinoProPersonal-Regular;
+}
+
 .logo img {
 	height: 3em;
 }
 
 .copyright {
 	color: white;
+	font-family: TofinoProPersonal-Regular;
+	text-align: center;
 }
 
+nav li {
+	display: inline-block;
+	padding: 10px 20px;
+	font-family: TofinoProPersonal-Regular;
+}
+
+.social-media { 
+	display: inline-block; /*this isn't doing anything*/
+	color: #FFFFFF; /*this isn't doing anything*/
+}
+
+/*Home Page*/
+
 .welcome {
-	background-color: #CC6666
+	background-color: #CC6666;
+	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
 }
 
 .welcome p {
 	color: white;
 }
 
-nav li {
-	display: inline-block;
-	padding: 10px 20px;
+/*About*/
+
+.about-picture img {
+	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+	margin-left: 10px;
+}
+
+.main-content-about h1, h3, p {
+}
+
+.main-content-about h1 {
+	font-family: TofinoProPersonal-Regular;
+	color: #CC6666;
+}
+
+.main-content-about h3 {
+	font-family: TofinoProPersonal-Regular;
+}
+
+/*Work*/
+
+.main-content-work h1 {
+	font-family: TofinoProPersonal-Regular;
+	color: #CC6666;
+}
+
+#projects {
+	background-color: #FF9999;
+	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+}
+
+#projects h2 {
+	font-family: TofinoProPersonal-Bold;
+	color: #FFFFFF;
+}
+
+#projects p {
+	color: #FFFFFF;
+}
+
+#skills {
+	background-color: #CC6666;
+	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+}
+
+#skills h2 {
+	font-family: TofinoProPersonal-Bold;
+	color: #FFFFFF;
+}
+
+#skills p {
+	color: #FFFFFF;
+}
+
+/*Gallery*/
+
+.main-content-gallery {
+	margin: 20px;
+}
+
+.main-content-gallery h1 {
+	font-family: TofinoProPersonal-Regular;
+	color: #CC6666;
 }
 
 .photo-cell{
