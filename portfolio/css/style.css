@@ -13,7 +13,11 @@ header, footer, .logo {
 header, footer {
 	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
 	width: 100%;
+}
 
+header {
+	position: fixed;
+	top: 0;
 }
 
 footer {
@@ -27,6 +31,31 @@ footer {
 
 p {
 	font-family: "TofinoProPersonal-Regular", "Arial";
+}
+
+h1{ 
+	font-size: 1.75em;
+}
+h2{
+	font-size: 1.5em;
+}
+h3{
+	font-size: 1.17em;
+}
+h4{
+	font-size: 1.12em;
+}
+h5{
+	font-size: .83em;
+}
+h6{
+	font-size: .75em;
+}
+
+.logo {
+	margin: 0;
+	text-align: center;
+	padding: .25em .75em;
 }
 
 .logo img {
@@ -50,7 +79,7 @@ nav li {
 	color: #FFFFFF; /*this isn't doing anything*/
 }
 
-/*skipping*/
+/*Skipping*/
 .skip{
 	position: absolute;
 	left: -999px;
@@ -71,11 +100,64 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	z-index: 999;
 }
 
+/*Navigation*/
+
+.top-nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	text-align: center;
+}
+
+.top-nav ul li a {
+	font-size: 1em;
+	color: #FF9999;
+	text-decoration: none;
+}
+
+.top-nav ul li a.current-page {
+	font-weight: bold;
+}
+
+.top-nav ul li a.current-page:before {
+	content: "\2022";
+	padding-right: 4px;
+	position: relative;
+	top: 1px;
+}
+
+.top-nav ul li a:hover, .menu-icon a:hover .top-nav ul li a:focus, .menu-icon a:focus {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.top-nav ul li a:hover:before, .top-nav ul li a:focus:before {
+	content: "\2022";
+	padding-right: 4px;
+	position: relative;
+	top: 1px;
+}
+
+.top-nav.toggle-open ul li a{
+	display: block;
+	color: white;
+}
+
 /*Home Page*/
+
+.main-content-home {
+	margin: 20px;
+	margin-top: 100px;
+	margin-bottom: 120px;
+}	
 
 .welcome {
 	background-color: #CC6666;
+	max-width: 400px;
 	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+	position: center;
+	margin-bottom: 120px;
 }
 
 .welcome p {
@@ -88,9 +170,6 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	padding: 1.5em;
 }
 
-.main-content-home {
-	margin: 20px;
-}
 
 .home-cell {
 	margin-bottom: 2%;
@@ -108,13 +187,13 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-about {
 	margin: 20px;
+	margin-top: 100px;
+	margin-bottom: 120px;
 }
 
 .about-picture img {
 	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
-}
-
-.main-content-about h1, h3, p {
+	margin-top: 20px;
 }
 
 .main-content-about h1 {
@@ -141,6 +220,8 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-work {
 	margin: 20px;
+	margin-top: 120px;
+	margin-bottom: 120px;
 }
 
 .main-content-work h1 {
@@ -191,6 +272,8 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-gallery {
 	margin: 20px;
+	margin-top: 120px;
+	margin-bottom: 120px;
 }
 
 .main-content-gallery h1 {

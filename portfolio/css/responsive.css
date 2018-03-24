@@ -1,5 +1,15 @@
 @media screen and (min-width: 650px){
 
+/*Navigation*/
+
+  .top-nav ul {
+    text-align: center;
+  }
+
+  .top-nav ul li {
+    display: inline-block;
+  }
+
 /*Home*/
 
   .home-grid {
@@ -68,6 +78,21 @@
 
 @media screen and (min-width: 1000px){
 
+/*Navigation*/
+
+  .logo {
+    float: left;
+  }
+
+  .top-nav ul {
+    float: right;
+    padding-top: 20px;
+  }
+
+  .top-nav ul li {
+    display: inline-block;
+  }
+
 /*Home*/
 
   .home-grid {
@@ -82,6 +107,10 @@
   .home-picture {
     grid-column: 3 / 5;
   }  
+
+  .main-content-home {
+    margin-top: 50px;
+  }
 
 /*About*/
   
