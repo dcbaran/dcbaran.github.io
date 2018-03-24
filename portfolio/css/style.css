@@ -74,9 +74,16 @@ nav li {
 	font-family: "TofinoProPersonal-Regular", "Arial";
 }
 
+/*Social Media*/
+
 .social-media { 
-	display: inline-block; /*this isn't doing anything*/
-	color: #FFFFFF; /*this isn't doing anything*/
+	text-align: center; /*this isn't doing anything*/
+	font-size: 1.5em; /*this isn't doing anything*/
+	margin: 20px;
+}
+
+.fa-linkedin, .fa-pinterest, .fa-envelope-square {
+	color: #FFFFFF;
 }
 
 /*Skipping*/
@@ -156,38 +163,39 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	background-color: #CC6666;
 	max-width: 400px;
 	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
-	position: center;
 	margin-bottom: 120px;
 }
 
 .welcome p {
 	color: white;
 	text-align: center;
-	display: flex;
-	flex-direction: column;
-	max-width: 300px;
+	max-width: 400px;
 	margin: auto;
 	padding: 1.5em;
+	padding-top: 3em;
 }
 
 
 .home-cell {
-	margin-bottom: 2%;
-	margin-left: 2%;
 	display: block;
-	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
 
 .home-cell img {
-	width: 98%;
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	margin-top: 20px;
 }
 
 /*About*/
 
 .main-content-about {
 	margin: 20px;
-	margin-top: 100px;
+	margin-top: 110px;
 	margin-bottom: 120px;
 }
 
@@ -206,14 +214,14 @@ a.skip:active, a.skip:focus, a.skip:hover {
 }
 
 .about-cell {
-	margin-bottom: 2%;
-	margin-left: 2%;
 	display: block;
 }
 
 .about-cell img {
 	display: block;
-	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
 }
 
 /*Work*/
