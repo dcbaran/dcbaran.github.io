@@ -1,0 +1,90 @@
+@media screen and (min-width: 650px){
+  .top-nav ul {
+    text-align: center;
+  }
+
+  .top-nav ul li {
+    display: inline-block;
+    border-top: 1px #CC6666;
+  }
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+  }
+
+  .germanshep {
+    grid-column: 1 / 2;
+    grid-row-start: 3;
+  }
+
+  .pomeranian {
+    grid-column: 2 / 3;
+    grid-row-start: 3;
+  }
+
+  .poodle {
+    grid-column: 1 / 2;
+    grid-row-start: 5;
+  }
+
+  .noseyboy {
+    grid-column: 2 / 3;
+    grid-row-start: 5;
+  }
+
+  .babyfriends, .sarge, .corgi {
+    grid-column: 1 / 3;
+  }
+
+}
+
+@media screen and (min-width: 1000px){
+  .logo {
+    float: left;
+  }
+
+  .top-nav ul {
+    float: right;
+    padding-top: 20px;
+  }
+
+  .top-nav ul li {
+    display: inline-block;
+    border-top: none;
+  }
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+  }
+
+  .germanshep {
+    grid-column: 1 / 2;
+    grid-row-start: 2
+  }
+
+  .pomeranian {
+    grid-column: 2 / 3;
+    grid-row-start: 2; 
+  }
+
+  .poodle {
+    grid-column: 1 / 2;
+    grid-row-start: 3
+  }
+
+  .noseyboy {
+    grid-column: 2 / 3;
+    grid-row-start: 3
+  }
+
+  .babyfriends {
+    grid-column: 1 / 3;
+  }
+
+  .sarge, .corgi {
+    grid-column: 3 / 5;
+  }
+
+}
