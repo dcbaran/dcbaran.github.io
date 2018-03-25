@@ -23,6 +23,7 @@ header {
 footer {
 	position: fixed;
 	bottom: 0;
+	height: 10%;
 }
 
 @font-face { font-family: Tofino Pro Personal; src: url('TofinoProPersonal-Regular.otf'); } 
@@ -66,6 +67,7 @@ h6{
 	color: white;
 	font-family: "TofinoProPersonal-Regular", "Arial";
 	text-align: center;
+	margin: 0
 }
 
 nav li {
@@ -77,9 +79,9 @@ nav li {
 /*Social Media*/
 
 .social-media { 
-	text-align: center; /*this isn't doing anything*/
-	font-size: 1.5em; /*this isn't doing anything*/
-	margin: 20px;
+	text-align: center;
+	font-size: 1.5em; 
+	margin: 5px;
 }
 
 .fa-linkedin, .fa-pinterest, .fa-envelope-square {
@@ -155,7 +157,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-home {
 	margin: 20px;
-	margin-top: 100px;
+	margin-top: 120px;
 	margin-bottom: 120px;
 }	
 
@@ -188,7 +190,6 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
-	margin-top: 20px;
 }
 
 /*About*/
@@ -274,6 +275,10 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	margin-left: 2%;
 	display: block;
 	width: 98%;
+}
+
+.semibold {
+	font-family: "TofinoProPersonal-Semibold", "Arial-semibold";
 }
 
 /*Gallery*/
