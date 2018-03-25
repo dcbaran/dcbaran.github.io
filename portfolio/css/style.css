@@ -168,6 +168,15 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	margin-bottom: 120px;
 }
 
+.welcome h1 {
+	color: white;
+	text-align: center;
+	max-width: 400px;
+	margin: auto;
+	padding: 1.5em;
+	padding-top: 3em;
+}
+
 .welcome p {
 	color: white;
 	text-align: center;
@@ -211,7 +220,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	color: #CC6666;
 }
 
-.main-content-about h3 {
+.main-content-about h2 {
 	font-family: "TofinoProPersonal-Regular", "Arial";
 }
 
