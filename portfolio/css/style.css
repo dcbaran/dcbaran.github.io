@@ -71,7 +71,7 @@ h6{
 }
 
 nav li {
-	display: inline-block;
+	display: inline-block; /* change this in mobile view - update margins in responsive.css */
 	padding: 10px 20px;
 	font-family: "TofinoProPersonal-Regular", "Arial";
 }
