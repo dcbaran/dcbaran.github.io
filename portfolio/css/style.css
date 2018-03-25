@@ -248,11 +248,13 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	font-family: "TofinoProPersonal-Bold", "Arial Bold";
 	color: #FFFFFF;
 	margin: 10px;
+	padding: 5px;
 }
 
 #projects p {
 	color: #FFFFFF;
 	margin: 10px;
+	padding: 5px;
 }
 
 #skills {
@@ -264,11 +266,13 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	font-family: "TofinoProPersonal-Bold", "Arial Bold";
 	color: #FFFFFF;
 	margin: 10px;
+	padding: 5px;
 }
 
 #skills p {
 	color: #FFFFFF;
 	margin: 10px;
+	padding: 5px;
 }
 
 .work-cell {
