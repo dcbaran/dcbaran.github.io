@@ -245,7 +245,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 }
 
 #projects h2 {
-	font-family: "TofinoProPersonal-Bold", "Arial Bold";
+	font-family: "TofinoProPersonal-Bold", "Arial";
 	color: #FFFFFF;
 	margin: 10px;
 	padding: 5px;
@@ -263,7 +263,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 }
 
 #skills h2 {
-	font-family: "TofinoProPersonal-Bold", "Arial Bold";
+	font-family: "TofinoProPersonal-Bold", "Arial";
 	color: #FFFFFF;
 	margin: 10px;
 	padding: 5px;
