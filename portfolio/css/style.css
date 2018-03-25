@@ -245,7 +245,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 }
 
 #projects h2 {
-	font-family: "TofinoProPersonal-Bold", "Arial-bold";
+	font-family: "TofinoProPersonal-Bold", "Arial Bold";
 	color: #FFFFFF;
 	margin: 10px;
 }
@@ -261,7 +261,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 }
 
 #skills h2 {
-	font-family: "TofinoProPersonal-Bold", "Arial-bold";
+	font-family: "TofinoProPersonal-Bold", "Arial Bold";
 	color: #FFFFFF;
 	margin: 10px;
 }
@@ -279,7 +279,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 }
 
 .semibold {
-	font-family: "TofinoProPersonal-Semibold", "Arial-semibold";
+	font-family: "TofinoProPersonal-Semibold", "Arial";
 }
 
 /*Gallery*/
