@@ -115,6 +115,7 @@
 
   .top-nav ul li {
     display: inline-block;
+    margin-top: -7px;
   }
 
 /*Home*/
