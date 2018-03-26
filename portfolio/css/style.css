@@ -71,7 +71,7 @@ h6{
 }
 
 nav li {
-	display: inline-block; /* change this in mobile view - update margins in responsive.css */
+	display: block; /* change this in mobile view - update margins in responsive.css */
 	padding: 10px 20px;
 	font-family: "TofinoProPersonal-Regular", "Arial";
 }
@@ -157,7 +157,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-home {
 	margin: 20px;
-	margin-top: 120px;
+	margin-top: 250px;
 	margin-bottom: 120px;
 }	
 
@@ -207,7 +207,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-about {
 	margin: 20px;
-	margin-top: 120px;
+	margin-top: 250px;
 	margin-bottom: 120px;
 }
 
@@ -240,7 +240,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-work {
 	margin: 20px;
-	margin-top: 120px;
+	margin-top: 250px;
 	margin-bottom: 120px;
 }
 
@@ -300,7 +300,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-gallery {
 	margin: 20px;
-	margin-top: 120px;
+	margin-top: 250px;
 	margin-bottom: 120px;
 }
 

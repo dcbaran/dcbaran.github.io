@@ -12,6 +12,12 @@
 
 /*Home*/
 
+  .main-content-home {
+    margin: 20px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
   .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -22,6 +28,12 @@
   }
 
 /*About*/
+  
+  .main-content-about {
+    margin: 20px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
 
   .about-grid {
     display: grid;
@@ -34,6 +46,12 @@
 
 /*Work*/
 
+  .main-content-work {
+    margin: 20px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
   .work-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -44,6 +62,12 @@
   }
 
 /*Gallery*/
+
+  .main-content-gallery {
+    margin: 20px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
 
   .photo-grid {
     display: grid;
