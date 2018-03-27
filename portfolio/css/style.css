@@ -97,6 +97,7 @@ nav li {
 	height: 1px;
 	overflow: hidden;
 	z-index: -999;
+	color: black;
 }
 a.skip:active, a.skip:focus, a.skip:hover {
     position:fixed;
