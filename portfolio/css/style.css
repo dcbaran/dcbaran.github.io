@@ -129,26 +129,6 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	text-decoration: none;
 }
 
-button {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	font-size: 1em;
-	color: #FF9999;
-	text-decoration: none;
-	background-color: #330000;
-	border-style: none;
-	padding: 1em;
-}
-
-/*#my-UL {
-	display: none;
-}
-margin
-#my-UL li {
-	display: block;
-}*/
-
 .top-nav ul li a.current-page {
 	font-weight: bold;
 }
