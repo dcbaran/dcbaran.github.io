@@ -115,15 +115,6 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	overflow: hidden;
 }
 
-.top-nav ul a {
-	display: block;
-	color: #FF9999;
-	text-align: center;
-	text-decoration: none;
-	font-size: 20px;
-	padding-top: -5em;
-}
-
 .top-nav ul {
 	list-style-type: none;
 	padding: 0;
@@ -181,12 +172,24 @@ margin
 	top: 1px;
 }
 
+button {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 1em;
+	color: #FF9999;
+	text-decoration: none;
+	background-color: #330000;
+	border-style: none;
+	padding: 1em;
+}
+
 /*Home Page*/
 
 .main-content-home {
 	margin: 20px;
 	margin-bottom: 120px;
-	margin-top: 150px;
+	margin-top: 190px;
 }	
 
 .welcome {
