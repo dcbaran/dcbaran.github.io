@@ -14,11 +14,12 @@
 <body class = "home">
 	<a href = "#main-content" class = "skip"> Skip Navigation </a>
 	<header>
-		<nav id = "top-nav" class = "top-nav">
+		<nav id = "my-top-nav" class = "top-nav">
 			<div class = "logo">
 				<a href = "index.html"><img src="img/logo/denisebaran.png" alt = "Denise's Portfolio Home"></a>
 			</div>
-			<ul>
+			<button onclick = 'showMenu();'> Menu </button>
+			<ul id = "my-UL">
 				<li><a href = "index.html"> Home </a></li>
 				<li><a class = "current-page" href = "about.html"> About </a></li>
 				<li><a href = "work.html"> Work </a></li>
@@ -39,6 +40,16 @@
 			</div>
 		</div>		
 	</div>
+	<script>
+		function showMenu() {
+		    var x = document.getElementById("my-UL");
+		    if (x.style.display == 'none') {
+		        x.style.display = 'block';
+		    } else {
+		        x.style.display = 'none';
+		    }
+		}
+	</script>
 	<footer class = "footer">
 		<div class = "social-media">
 			<a href="https://www.linkedin.com/in/denise-baran-7ab02b82/"><i class="fa fa-linkedin" alt = "linkedin link" aria-hidden="true"></i></a> 

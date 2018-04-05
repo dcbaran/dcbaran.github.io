@@ -1,16 +1,10 @@
-@media (pointer: fine) {
-  a span {
-    display: none;
-  }
-
-  a:hover span {
-    display: inline-block;
-  }
-}
-
 @media screen and (min-width: 650px){
 
 /*Navigation*/
+
+  button {
+    display: none;
+  }
 
   .top-nav ul {
     text-align: center;
@@ -19,6 +13,10 @@
   .top-nav ul li {
     display: inline-block;
   }
+
+  .top-nav .icon {
+    display: none;
+}
 
 /*Home*/
 
