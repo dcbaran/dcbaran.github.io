@@ -224,7 +224,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-home {
 	margin: 20px;
-	margin-bottom: 120px;
+	margin-bottom: 100px;
 	margin-top: 150px;
 }	
 
@@ -275,7 +275,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-about {
 	margin: 20px;
-	margin-top: 150px;
+	margin-top: 120px;
 	margin-bottom: 120px;
 }
 
@@ -309,7 +309,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-work {
 	margin: 20px;
-	margin-top: 150px;
+	margin-top: 120px;
 	margin-bottom: 120px;
 }
 
@@ -373,7 +373,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 .main-content-gallery {
 	margin: 20px;
-	margin-top: 150px;
+	margin-top: 120px;
 	margin-bottom: 120px;
 }
 
