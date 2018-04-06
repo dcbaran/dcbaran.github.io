@@ -8,17 +8,31 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body class = "home">
 	<a href = "#main-content" class = "skip"> Skip Navigation </a>
 	<header>
-		<nav id = "my-top-nav" class = "top-nav">
+		<nav id = "top-nav-mobile" class = "top-nav-mobile">
 			<div class = "logo">
 				<a href = "index.html"><img src="img/logo/denisebaran.png" alt = "Denise's Portfolio Home"></a>
 			</div>
-			<button onclick = 'showMenu();'> Menu </button>
+			<div id="hamburger" class="hamburger">
+				<i class="fa fa-bars"></i>
+			</div>
+			<div id = "menu-items" class = "menu-items" style = "display:none">
+				<ul id = "my-UL">
+					<li><a href = "index.html"> Home </a></li>
+					<li><a href = "about.html"> About </a></li>
+					<li><a href = "work.html"> Work </a></li>
+					<li><a class = "current-page" href = "gallery.html"> Gallery </a></li>
+				</ul>
+			</div>
+		</nav>
+		<nav id = "top-nav" class = "top-nav">
+			<div class = "logo">
+				<a href = "index.html"><img src="img/logo/denisebaran.png" alt = "Denise's Portfolio Home"></a>
+			</div>
 			<ul id = "my-UL">
 				<li><a href = "index.html"> Home </a></li>
 				<li><a href = "about.html"> About </a></li>
@@ -57,15 +71,12 @@
 			</div>
 		</section>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script>
-		function showMenu() {
-		    var x = document.getElementById("my-UL");
-		    if (x.style.display == 'none') {
-		        x.style.display = 'block';
-		    } else {
-		        x.style.display = 'none';
-		    }
-		}
+		// $(document).ready(function(){
+			$("#hamburger").click(function() {
+				$("#menu-items").toggle();
+		});
 	</script>
 	<footer class = "footer">
 		<div class = "social-media">

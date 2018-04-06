@@ -109,7 +109,75 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	z-index: 999;
 }
 
-/*Navigation*/
+/*Navigation Mobile*/
+
+.hamburger {
+	text-align: left;
+	font-size: 30px;
+	position: absolute;
+	top: 0;
+	padding: 0.8em;
+	color: #FF9999;
+}
+
+.hamburger i:hover, .hamburger i:focus {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.hamburger i:hover:before, .hamburger i:focus:before {
+	padding-right: 4px;
+	position: relative;
+	top: 1px;
+}
+
+
+.menu-items ul li a:hover:before, .menu-items ul li a:focus:before {
+	content: "\2022";
+	padding-right: 4px;
+	position: relative;
+	top: 1px;
+}
+
+.menu-items ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	text-align: center;
+	background-color: #330000;
+}
+
+.menu-items ul li a {
+	font-size: 1em;
+	color: #FF9999;
+	text-decoration: none;
+}
+
+.menu-items ul li a.current-page {
+	font-weight: bold;
+}
+
+.menu-items ul li a.current-page:before {
+	content: "\2022";
+	padding-right: 4px;
+	position: relative;
+	top: 1px;
+}
+
+.menu-items ul li a:hover, .menu-icon a:hover .menu-items ul li a:focus, .menu-icon a:focus {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.menu-items ul li a:hover:before, .menu-items ul li a:focus:before {
+	content: "\2022";
+	padding-right: 4px;
+	position: relative;
+	top: 1px;
+}
+
+/*Navigation */
 
 .top-nav {
 	overflow: hidden;
@@ -152,24 +220,12 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	top: 1px;
 }
 
-button {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	font-size: 1em;
-	color: #FF9999;
-	text-decoration: none;
-	background-color: #330000;
-	border-style: none;
-	padding: 1em;
-}
-
 /*Home Page*/
 
 .main-content-home {
 	margin: 20px;
 	margin-bottom: 120px;
-	margin-top: 190px;
+	margin-top: 150px;
 }	
 
 .welcome {
