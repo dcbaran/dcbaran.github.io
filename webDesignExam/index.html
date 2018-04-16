@@ -9,9 +9,11 @@
 		<img id = "myImage" src = "images/examPic.JPG" alt = "Colleen smiling with friends">
 		<img src = "images/UMSI-logo.jpg" alt = "School of Information">
 
-		<button type = "button" onclick = "hideFunction()"> Hide Image </button>
-		<button type = "button" onclick = "showFunction()"> Show Image </button>
-
+		<br>
+		<div id = "buttons">
+			<button type = "button" onclick = "hideFunction()"> Hide Image </button>
+			<button type = "button" onclick = "showFunction()"> Show Image </button>
+		</div>
 		<script>
 			function hideFunction() {
 		    	document.getElementById("myImage").style.visibility = "hidden";
