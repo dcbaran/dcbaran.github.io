@@ -4,32 +4,34 @@
 		<title> Exam </title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-	<body>
-		<h1> Denise Baran :) </h1>
-		<div class = "images">
-			<div class = "image1">
-				<img id = "myImage" src = "images/examPic.JPG" alt = "Colleen smiling with friends">
+	<body style = "background-image: url(images/christmas-colour.png)">
+		<div class = "body">
+			<h1> Denise Baran :) </h1>
+			<div class = "images">
+				<div class = "image1">
+					<img id = "myImage" src = "images/examPic.JPG" alt = "Colleen smiling with friends">
+				</div>
+				<div class = "image2">
+					<img id = "second" src = "images/UMSI-logo.jpg" alt = "School of Information">
+				</div>
 			</div>
-			<div class = "image2">
-				<img id = "second" src = "images/UMSI-logo.jpg" alt = "School of Information">
+			<br>
+			<div id = "buttons">
+				<button type = "button" onclick = "hideFunction()"> Hide Image </button>
+				<button type = "button" onclick = "showFunction()"> Show Image </button>
 			</div>
-		</div>
-		<br>
-		<div id = "buttons">
-			<button type = "button" onclick = "hideFunction()"> Hide Image </button>
-			<button type = "button" onclick = "showFunction()"> Show Image </button>
-		</div>
-		<script>
-			function hideFunction() {
-		    	document.getElementById("myImage").style.visibility = "hidden";
-		    	document.getElementById("second").style.display = "block";
-		    	document.getElementById("second").style.margin = "0 auto";
-			}
+			<script>
+				function hideFunction() {
+			    	document.getElementById("myImage").style.visibility = "hidden";
+			    	document.getElementById("second").style.display = "block";
+			    	document.getElementById("second").style.margin = "0 auto";
+				}
 
-			function showFunction() {
-				document.getElementById("myImage").style.visibility = "visible";
-				document.getElementById("second").style.display = "inline-block";
-			}
-		</script>
+				function showFunction() {
+					document.getElementById("myImage").style.visibility = "visible";
+					document.getElementById("second").style.display = "inline-block";
+				}
+			</script>
+		</div>
 	</body>
 </html>
