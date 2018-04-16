@@ -6,9 +6,14 @@
 	</head>
 	<body>
 		<h1> Denise Baran :) </h1>
-		<img id = "myImage" src = "images/examPic.JPG" alt = "Colleen smiling with friends">
-		<img src = "images/UMSI-logo.jpg" alt = "School of Information">
-
+		<div class = "images">
+			<div class = "image1">
+				<img id = "myImage" src = "images/examPic.JPG" alt = "Colleen smiling with friends">
+			</div>
+			<div class = "image2">
+				<img id = "second" src = "images/UMSI-logo.jpg" alt = "School of Information">
+			</div>
+		</div>
 		<br>
 		<div id = "buttons">
 			<button type = "button" onclick = "hideFunction()"> Hide Image </button>
@@ -17,10 +22,13 @@
 		<script>
 			function hideFunction() {
 		    	document.getElementById("myImage").style.visibility = "hidden";
+		    	document.getElementById("second").style.display = "block";
+		    	document.getElementById("second").style.margin = "0 auto";
 			}
 
 			function showFunction() {
 				document.getElementById("myImage").style.visibility = "visible";
+				document.getElementById("second").style.display = "inline-block";
 			}
 		</script>
 	</body>
