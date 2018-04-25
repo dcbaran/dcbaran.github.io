@@ -1,0 +1,139 @@
+html, body, header, footer {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: fixed;
+	top: 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #de754d;
+}
+
+@media screen and (max-width: 650px) {
+	#Home p {
+		font-size: 1px;
+	}
+}
+
+/*navigation*/
+
+.top-nav {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	text-align: center;
+}
+
+.top-nav li a {
+	font-family: "Arimo", sans-serif;
+	font-size: 1em;
+	color: #dbb142;
+	text-decoration: none;
+	display: inline-block;
+	width: 60px;
+	padding: 8px 16px;
+}
+
+.top-nav li a:hover {
+    color: #de754d;
+}
+
+.logo img {
+	margin: 0 30%;
+	padding: 0;
+	width: 40%;
+	display: block;
+}
+
+/*home section*/
+
+#Home {
+	background-color: #c1dbd5;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+}
+
+#Home h1, #Home p {
+	color: #de754d;
+	text-align: center;
+}
+
+#Home h1 {
+	font-family: "Cookie", cursive;
+	padding: 2em;
+	padding-top: .5em;
+	padding-bottom: 0;
+	font-size: 4em;
+    display: block;
+    margin-top: 1em;
+}
+
+#Home p {
+	font-family: "Arimo", sans-serif;
+	font-weight: bold;
+	padding: 2em;
+	padding-top: 0;
+	padding-bottom: .5em;
+	font-size: 1.5em;
+    display: block;
+}
+
+#Home button {
+	width: 250px;
+	margin: 3% auto;
+	background-color: #dbb142;
+	color: white;
+	padding: .5em;
+	border: none;
+	font-family: "Arimo", sans-serif;
+}
+
+.img-responsive {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: auto;
+  	padding: auto;
+  	position: relative;
+}
+
+.download {
+	height: 1em;
+	display: inline-block;
+}
+
+.over_image {
+ 	position: absolute;
+    text-align: center;
+  	width: 100%;
+  	margin: auto;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate( -50%, -50% );
+  	z-index: 2;
+}
+
+/*footer*/
+
+.social_media {
+	text-align: center;
+	padding: .5em;
+	font-size: 1.5em;
+}
+
+.fa {
+	display: block;
+	color: white;
+	padding: .3em;
+}
