@@ -1,24 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+
 html, body, header, footer {
 	margin: 0;
 	padding: 0;
-}
-
-header {
-	position: fixed;
-	top: 0;
+	overflow-x: hidden;
 }
 
 footer {
-	position: absolute;
-	bottom: 0;
+	position: relative;
+  	bottom: 0;
 	width: 100%;
 	background-color: #de754d;
-}
-
-@media screen and (max-width: 650px) {
-	#Home p {
-		font-size: 1px;
-	}
 }
 
 /*navigation*/
@@ -29,16 +23,15 @@ footer {
 	margin: 0;
 	display: block;
 	text-align: center;
+	overflow: hidden;
+	width: 100%;
 }
 
 .top-nav li a {
 	font-family: "Arimo", sans-serif;
-	font-size: 1em;
+	font-size: 1.2em;
 	color: #dbb142;
 	text-decoration: none;
-	display: inline-block;
-	width: 60px;
-	padding: 8px 16px;
 }
 
 .top-nav li a:hover {
@@ -46,10 +39,15 @@ footer {
 }
 
 .logo img {
-	margin: 0 30%;
+	margin: auto;
 	padding: 0;
-	width: 40%;
+	width: 45%;
 	display: block;
+}
+
+nav li {
+	display: block;
+	padding: 10px 20px;
 }
 
 /*home section*/
@@ -61,7 +59,6 @@ footer {
 	display: inline-block;
 	padding: 0;
 	margin: 0;
-	z-index: 1;
 }
 
 #Home h1, #Home p {
@@ -71,12 +68,11 @@ footer {
 
 #Home h1 {
 	font-family: "Cookie", cursive;
-	padding: 2em;
-	padding-top: .5em;
+	padding-top: 0;
 	padding-bottom: 0;
-	font-size: 4em;
+	font-size: 3em;
     display: block;
-    margin-top: 1em;
+    margin: 0 auto;
 }
 
 #Home p {
@@ -84,23 +80,24 @@ footer {
 	font-weight: bold;
 	padding: 2em;
 	padding-top: 0;
-	padding-bottom: .5em;
-	font-size: 1.5em;
+	padding-bottom: 0;
+	font-size: 1.1em;
     display: block;
 }
 
 #Home button {
-	width: 250px;
-	margin: 3% auto;
+	width: 165px;
+	margin: 1% auto;
 	background-color: #dbb142;
 	color: white;
-	padding: .5em;
+	padding: .3em;
 	border: none;
 	font-family: "Arimo", sans-serif;
+	font-size: 1em;
 }
 
 .img-responsive {
-	max-width: 100%;
+	width: 100%;
 	display: block;
 	height: auto;
 	margin: auto;
@@ -120,8 +117,121 @@ footer {
   	margin: auto;
   	top: 50%;
   	left: 50%;
-  	transform: translate( -50%, -50% );
-  	z-index: 2;
+  	transform: translate( -50%, -50%);
+}
+
+/*projects section*/
+
+#Projects {
+	margin: auto;
+	width: 100%;
+}
+
+#Projects h1 {
+	font-family: "Cookie", cursive;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 3em;
+    display: block;
+   	color: #de754d;
+	text-align: center;
+}
+
+.projects {
+	background-color: #fdddd3;
+	display: inline-block;
+	border: 30px solid white;
+	width: 500px;
+}
+
+.projects img {
+	padding: 2em;
+	height: 200px;
+	position: relative;
+	display: block;
+	margin: auto;
+}
+
+.projects p {
+	text-align: center;
+	color: #de754d;
+}
+
+/*work section*/
+
+#Work {
+	background-color: #f0efef;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#Work h1 {
+	font-family: "Cookie", cursive;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 3em;
+    display: block;
+   	color: #de754d;
+	text-align: center;
+}
+
+.over_grey {
+ 	position: absolute;
+    text-align: center;
+  	width: 100%;
+  	margin: auto;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate( -50%, -50%);
+}
+
+.img-responsive2 {
+	display: block;
+	height: auto;
+	margin: auto;
+  	padding: auto;
+  	position: relative;
+  	height: 11em;
+}
+
+/*contact section*/
+
+#Contact h1 {
+	font-family: "Cookie", cursive;
+	font-size: 3em;
+	color: #de754d;
+	text-align: center;
+	display: block;
+}
+
+#Contact p {
+	font-family: "Arimo", sans-serif;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 2em;
+	text-align: center;
+	margin-left: 4.5em;
+	margin-right: 4.5em;
+}
+
+#Contact a {
+	color: #dbb142;
+	text-decoration: none;
+}
+
+#Contact a:hover {
+	color: #de754d;
+}
+
+#Contact img {
+	display: block;
+	margin: auto;
+	width: 10%;
+	padding: 1em;
+	margin-bottom: 30px;
 }
 
 /*footer*/
@@ -136,4 +246,46 @@ footer {
 	display: block;
 	color: white;
 	padding: .3em;
+}
+
+/*responsive*/
+
+@media screen and (min-width: 650px){
+
+	nav li {
+		display: inline-block;
+	}
+
+	#Home h1 {
+		font-size: 5em;
+	}
+
+	#Home p {
+		font-size: 1.5em;
+	}
+
+	#Home button {
+		font-size: 1.5em;
+		width: 225px;
+	}
+
+	#Projects h1 {
+		font-size: 5em;
+	}
+
+	#Work h1 {
+		font-size: 5em;
+	}
+
+	#Contact h1 {
+		font-size: 5em;
+	}
+
+	#Contact p {
+		font-size: 1.5em;
+	}
+
+	.img-responsive2 {
+  	height: 25em;
+}
 }

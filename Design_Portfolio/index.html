@@ -4,27 +4,13 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	
-	<link href="https://fonts.googleapis.com/css?family=Arimo|Cookie" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>Denise Baran's Portfolio</title>
 </head>
 <body>
-	<nav>
-		<div class = "logo" style = "display:none">
-			<a href = "index.html"><img src="img/denise_logo.png" alt = "Denise's Portfolio Home"></a>
-		</div>
-		<div id="hamburger" class="hamburger" style = "display:none">
-			<i class="fa fa-bars"></i>
-		</div>
-		<div style = "display:none">
-			<ul class = "mobile-navigation" id = "menu-items">
-				<li><a href = "index.html#Projects"> Projects </a></li>
-				<li><a href = "index.html#Work"> Work </a></li>
-				<li><a href = "index.html#Favorites"> Favorites </a></li>
-				<li><a href = "index.html#About"> About </a></li>
-				<li><a href = "index.html#Contact"> Contact </a></li>
-			</ul>
-		</div>
-	</nav>
 	<nav>
 		<div class = "logo">
 			<a href = "index.html"><img src="img/denise_logo.png" alt = "Denise's Portfolio Home"></a>
@@ -39,19 +25,74 @@
 			</ul>
 		</div>
 	</nav>
-	<div class = "container" id = "Home">
-		<img class = "img-responsive" src="img/swirl.png">
+	<div class = "container-fluid" id = "Home">
+		<img class = "img-responsive" src="img/swirl.png" alt = "swirl">
 		<div class = "over_image">
-			<h1>Welcome</h1>
-			<p>I aspire to design experiences that enhance connectedness with each other, and encourage activity outside of our tiny phone screens.</p>
-			<button onclick="location.href='https://drive.google.com/file/d/1AknSmeBtjuvef1i0g46an86fuR6nCFN4/view?usp=sharing'" type="button"> Download Resume <img class = "download" src="img/download.png"> </button>
+			<div class = "row">
+				<div class = "col-xs-12">
+					<h1>Welcome</h1>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-12">
+					<p>I aspire to design experiences that enhance connectedness with each other, and encourage activity outside of our tiny phone screens.</p>
+				</div>
+			</div>
+			<div class = "row">
+				<div>
+					<button onclick="location.href='https://drive.google.com/file/d/1AknSmeBtjuvef1i0g46an86fuR6nCFN4/view?usp=sharing'" type="button"> Download Resume <img class = "download" src="img/download.png" alt = "download icon"> </button>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div id = "Projects">
-		
+		<h1>Projects</h1>
+		<div class = "container-fluid">
+			<div class = "row">
+				<div class = "projects col-xs-12 col-md-4" id = "chi">
+					<a href=""><img src="img/phone.png" alt = "phone"></a>
+					<p>CHI Design Competition: Litebox</p>
+				</div>
+				<div class = "projects col-xs-12 col-md-4" id = "botanical">
+					<a href=""><img src="img/postit.png" alt = "post it notes"></a>
+					<p>Contextual Inquiry: Botanical Gardens</p>
+				</div>
+				<div class = "projects col-xs-12 col-md-4" id = "pet">
+					<a href=""><img src="img/phone.png" alt = "phone"></a>
+					<p>Interaction Design: Pet Mingle</p>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "projects col-xs-12 col-md-4" id = "music">
+					<a href=""><img src="img/kiosk.png" alt = "kiosk"></a>
+					<p>Design Challenge: Music Kiosk</p>
+				</div>
+			
+				<div class = "projects col-xs-12 col-md-4" id = "fitness">
+					<a href=""><img src="img/phone.png" alt = "phone"></a>
+					<p>UX Research: MyFitnessPal</p>
+				</div>
+				<div class = "projects col-xs-12 col-md-4" id = "jam">
+					<a href=""><img src="img/kiosk.png" alt = "kiosk"></a>
+					<p>Design Jam: Prison Health Care</p>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div id = "Work">
-		
+	<div class = "container-fluid" id = "Work">
+		<img class = "img-responsive" src="img/swirl.png" alt = "swirl">
+		<div class = "over_grey">
+			<div class = "row">
+				<div class = "col-xs-12">
+					<h1>Work</h1>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-12">
+					<img class = "img-responsive2" src="img/timeline.png" alt = "timeline">
+				</div>
+			</div>
+		</div>
 	</div>
 	<div id = "Favorites">
 		
@@ -60,16 +101,18 @@
 		
 	</div>
 	<div id = "Contact">
-
+		<h1>Contact</h1>
+		<p>Drop me an <a href="mailto:dcbaran@umich.edu?Subject=Hello%DeniseBaran">email</a>, I'd love to hear from you. You can also connect with me on <a href="https://www.instagram.com/picasketch/">Instagram</a>, <a href="https://www.linkedin.com/in/denise-baran-7ab02b82/">LinkedIn</a>, <a href="https://www.pinterest.com/denisebaran/">Pinterest</a>, <a href="https://www.etsy.com/people/barandenise?ref=hdr_user_menu">Etsy</a> or <a href="https://www.behance.net/dcbarana968">Behance</a>.</p>
+		<img src="img/ladybug.png">
 	</div>
-
 	<footer>
 		<div class = "social_media">
-			<i class="fa fa-envelope-square"></i>
-			<i class="fa fa-instagram"></i>
-			<i class="fa fa-pinterest"></i>
-			<i class="fa fa-etsy"></i>
-			<i class="fa fa-behance"></i>
+			<a href="mailto:dcbaran@umich.edu?Subject=Hello%DeniseBaran" aria-label = "email Denise Baran"><i class="fa fa-envelope-square"></i></a>
+			<a href="https://www.instagram.com/picasketch/" aria-label = "Denise Baran instagram"><i class="fa fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/denise-baran-7ab02b82/" aria-label="Denise Baran Linkedin"><i class="fa fa-linkedin" ></i></a> 
+			<a href="https://www.pinterest.com/denisebaran/" aria-label="Denise Baran Pinterest"><i class="fa fa-pinterest"></i></a>
+			<a href="https://www.etsy.com/people/barandenise?ref=hdr_user_menu" aria-label = "Denise Baran Etsy"><i class="fa fa-etsy"></i></a>
+			<a href="https://www.behance.net/dcbarana968"><i class="fa fa-behance"></i></a>
 		</div>
 	</footer>
 </body>
