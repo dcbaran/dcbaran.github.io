@@ -1,0 +1,101 @@
+/* general & universal style */
+
+html, body, header, footer {
+	margin: 0;
+	padding: 0;
+}
+
+header, footer {
+	width: 100%;
+}
+
+header {
+	position: fixed;
+	top: 0;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	height: 10%;
+	text-align: center;
+}
+
+p {
+	padding: 3em;
+}
+
+/* skipping */
+
+.skip{
+	position: absolute;
+	left: -999px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	z-index: -999;
+	color: black;
+}
+
+a.skip:active, a.skip:focus, a.skip:hover {
+    position:fixed;
+    top: auto;
+    left: auto; 
+	width: auto; 
+	height: auto; 
+	overflow: visible;
+	z-index: 999;
+}
+
+/* navigation */
+
+nav ul {
+	font-family: "Avenir Next Condensed";
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: black;
+}
+
+.logo {
+	margin: 0;
+	padding: .5em;
+	text-align: center;
+}
+
+.logo img {
+	height: 3em;
+}
+
+/* home */
+
+.home-content, footer {
+	font-family: "Avenir Next Condensed";
+}
+
+.home-content img {
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-content h1 {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+
+
