@@ -98,12 +98,11 @@ nav li {
 }
 
 .img-responsive {
-	width: 100%;
 	display: block;
-	height: auto;
 	margin: auto;
   	padding: auto;
   	position: relative;
+  	height: 30em;
 }
 
 .download {
