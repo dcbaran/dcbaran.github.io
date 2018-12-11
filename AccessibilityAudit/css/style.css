@@ -100,8 +100,12 @@ nav ul a {
 
 /* gallery */
 
-.gallery-content h1 {
+.gallery-title h1 {
 	font-size: 2.5em;
 	font-family: "Avenir Next Condensed";
 	text-align: center;
+}
+
+img {
+	margin-top: 5%;
 }
