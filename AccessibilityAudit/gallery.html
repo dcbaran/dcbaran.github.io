@@ -48,6 +48,10 @@
 				<img class="img-responsive" src = "img/angell6.JPG" alt = "angell hall inaccessible entrance">
 			</div>
 		</div>
+		<button class="accordion">Analysis</button>
+		<div class="panel">
+  			<p>Lorem ipsum...</p>
+		</div>
 		<h2>Chemistry Building</h2>
 		<div class = "row">
 			<div class = "col-xs-12 col-sm-6 col-md-3">
@@ -220,6 +224,23 @@
 			</div>
 		</div>
 	</div>
+	<!--script-->
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.display === "block") {
+		      panel.style.display = "none";
+		    } else {
+		      panel.style.display = "block";
+		    }
+		  });
+		}
+	</script>
 	<!--footer-->
 	<footer>
 		<p class = "copyright">This site was created by Denise Baran &copy; 2018</p>
